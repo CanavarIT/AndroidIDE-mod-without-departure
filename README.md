@@ -34,7 +34,7 @@ HiddenApiBypass.setHiddenApiExemptions(...);
 
 Почему именно classes3.dex?
 
-В твоём лог-файле краша видно:
+В лог-файле краша видно:
 
 ```
 #02 pc 0000000000602c18 [anon:dalvik-classes3.dex] (org.lsposed.hiddenapibypass.HiddenApiBypass.getDeclaredMethods+180)
@@ -44,9 +44,9 @@ HiddenApiBypass.setHiddenApiExemptions(...);
 
 ---
 
-3. Как ты это исправил (техническое описание мода)
+3. Как я это исправил (техническое описание мода)
 
-Твой мод решает проблему кардинально: заменяет устаревшую библиотеку на актуальную версию 6.1, которая совместима с Android 15.
+Мой мод решает проблему кардинально: заменяет устаревшую библиотеку на актуальную версию 6.1, которая совместима с Android 15.
 
 Этапы модификации
 
@@ -133,7 +133,7 @@ the following occurred:
 
 Why classes3.dex Specifically?
 
-Your crash log clearly shows:
+crash log clearly shows:
 
 ```
 #02 pc 0000000000602c18 [anon:dalvik-classes3.dex] (org.lsposed.hiddenapibypass.HiddenApiBypass.getDeclaredMethods+180)
@@ -143,9 +143,9 @@ This indicates the problematic code was located in classes3.dex—the third DEX 
 
 ---
 
-3. How You Fixed It (Technical Mod Description)
+3. How Fixed It (Technical Mod Description)
 
-Your mod solves the problem fundamentally: replacing the outdated library with the latest version 6.1, which is fully compatible with Android 15.
+My mod solves the problem fundamentally: replacing the outdated library with the latest version 6.1, which is fully compatible with Android 15.
 
 Modification Steps
 
